@@ -5,7 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/Sunify/bem-classname",
   "scripts": {
-    "test": "mocha --require babelhook"
+    "test": "mocha --require babelhook",
+    "build": "./build.sh"
   },
   "author": {
     "name": "Alex Lunyov",
