@@ -1,0 +1,11 @@
+{
+  "name": "bem-classname",
+  "version": "0.1.0",
+  "description": "Simple function for generating bem-like classNames",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babelhook"
+  },
+  "author": "",
+  "license": "MIT"
+}
