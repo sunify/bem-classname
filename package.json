@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "description": "Simple function for generating bem-like classNames",
   "main": "index.js",
+  "repository": "https://github.com/Sunify/bem-classname",
   "scripts": {
     "test": "mocha --require babelhook"
   },
-  "author": "",
-  "license": "MIT"
+  "author": {
+    "name": "Alex Lunyov",
+    "email": "isuntc@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.4.7"
+  }
 }
