@@ -33,7 +33,13 @@ class SomeComp {
   constructor() {
     this.className = bemClassName.bind(null, this.constructor.name);
   }
-
+  
+  /**
+   * className() === 'SomeComp'
+   * className('title') === 'SomeComp__title'
+   * className('item', {awesome: true}) === 'SomeComp__item SomeComp__item--awesome'
+   * className('item', {awesome: false}) === 'SomeComp__item'
+   */
   render() {
     const { className } = this;
     return (
