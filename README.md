@@ -4,9 +4,14 @@ Simple function for generating bem-like classNames
 
 It takes from 1 to 3 arguments — block, element and modifiers and generates classNames like ```block__element```, ```block__element block__element--mod``` etc.
 
+## Install
+```
+npm install bem-classname
+```
+
 ## Examples
 
-```es6
+```js
 import bemClassName from 'bem-classname';
 
 bemClassName('block'); // "block"
@@ -20,7 +25,7 @@ bemClassName('block', 'element', ['awesome']); // block__element block__element-
 
 ## Partial application
 Convenient to use partial function application in React component for example:
-```es6
+```js
 import React from 'react';
 import bemClassName from 'bem-classname';
 
