@@ -2,8 +2,11 @@
   "name": "bem-classname",
   "version": "0.1.0",
   "description": "Simple function for generating bem-like classNames",
-  "main": "index.js",
-  "repository": "https://github.com/Sunify/bem-classname",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sunify/bem-classname.git"
+  },
   "scripts": {
     "test": "mocha --require babelhook",
     "build": "./build.sh"
@@ -12,6 +15,12 @@
     "name": "Alex Lunyov",
     "email": "isuntc@gmail.com"
   },
+  "keywords": [
+    "bem",
+    "className",
+    "react",
+    "css"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel": "^5.4.7"
