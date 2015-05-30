@@ -16,7 +16,7 @@ var _identity = require('./identity');
 var _identity2 = _interopRequireDefault(_identity);
 
 function applyMods(base, mods) {
-  if (mods === undefined) {
+  if (!mods) {
     return base;
   }
 

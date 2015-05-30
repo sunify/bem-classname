@@ -33,13 +33,13 @@ function b_() {
   }
 
   if (args.length === 0) {
-    throw new Error('You need to specify block name');
+    return '';
   } else if (args.length === 1) {
     return args[0];
   } else if (args.length === 2 && (0, _isMods2['default'])(args[1])) {
-    return bm.apply(null, args);
+    return bm.apply(undefined, args);
   } else {
-    return bem.apply(null, args);
+    return bem.apply(undefined, args);
   }
 }
 

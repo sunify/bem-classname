@@ -3,6 +3,10 @@ import className from '../src/index';
 
 describe('className', function() {
 
+	it('should return empty string', function() {
+		assert.equal('', className());
+	});
+
 	it('should return block name', function() {
 		assert.equal('block', className('block'));
 	});

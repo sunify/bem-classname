@@ -11,12 +11,12 @@ function bm(block, mods = []) {
 
 export default function b_(...args) {
   if(args.length === 0) {
-    throw new Error('You need to specify block name');
+    return '';
   } else if(args.length === 1) {
     return args[0];
   } else if(args.length === 2 && isMods(args[1])) {
-    return bm.apply(null, args);
+    return bm(...args);
   } else {
-    return bem.apply(null, args);
+    return bem(...args);
   }
 }

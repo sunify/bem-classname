@@ -2,7 +2,7 @@ import flattenMods from './flattenMods';
 import identity from './identity';
 
 export default function applyMods(base, mods) {
-  if(mods === undefined) {
+  if(!mods) {
     return base;
   }
 
